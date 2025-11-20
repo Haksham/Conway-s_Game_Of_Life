@@ -212,9 +212,9 @@ def run(initial, mode, steps=10, print_steps=True, workers=None):
     print("Total Changes:", total_ch)
     print(f"Time: {ms:.2f} ms")
 
-###############################
+##############################
 # MAIN EXECUTION
-###############################
+##############################
 if __name__ == "__main__":
     cases = get_test_cases()
     modes = ["mp", "numpy", "microservice"]
